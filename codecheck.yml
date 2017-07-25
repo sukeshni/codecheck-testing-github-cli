@@ -1,5 +1,5 @@
 build:
-- pip3 install -r requirements.txt
+- bundle install
 env:
-  APP_COMMAND: python3 index.py
+  APP_COMMAND: ruby index.rb
 test: mocha
